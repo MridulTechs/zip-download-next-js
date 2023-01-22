@@ -36,6 +36,7 @@ export default function Home() {
       Promise.all(remoteZips)
         .then(() => {
           zip.generateAsync({ type: "blob" }).then((content) => {
+            // give the zip file a name
             saveAs(content, "zip-download-next-js.zip");
           });
           setLoading(false);
