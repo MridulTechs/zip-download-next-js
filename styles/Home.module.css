@@ -25,6 +25,7 @@
 }
 
 .button {
+  cursor: pointer;
   background: #0070f3;
   color: #fff;
   border: 0;
