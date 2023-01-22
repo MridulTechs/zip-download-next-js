@@ -1,25 +1,23 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
 export default function handler(req, res) {
   res.status(200).json([
     {
-      name: "Laptop",
-      url: "https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg",
+      name: "laptop",
+      url: "https://res.cloudinary.com/dbxcernxw/image/upload/v1674379837/Mridul.Tech%20Blog/pexels-laptop_tfnlrg.jpg",
       type: "jpeg",
     },
     {
-      name: "Coding",
-      url: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+      name: "coding-react-js",
+      url: "https://res.cloudinary.com/dbxcernxw/image/upload/v1674379837/Mridul.Tech%20Blog/pexels-react-code_gkeio5.jpg",
       type: "jpeg",
     },
     {
-      name: "Coding 2",
-      url: "https://images.pexels.com/photos/6424586/pexels-photo-6424586.jpeg",
+      name: "coding-python",
+      url: "https://res.cloudinary.com/dbxcernxw/image/upload/v1674379837/Mridul.Tech%20Blog/pexels-python-code_qau1ba.jpg",
       type: "jpeg",
     },
     {
-      name: "Coding PDF",
-      url: "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+      name: "coding-pdf",
+      url: "https://zip-download-next-js.vercel.app/assets/photos-pdf.pdf",
       type: "pdf",
     },
   ]);
